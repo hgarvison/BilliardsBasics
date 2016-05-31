@@ -1,0 +1,141 @@
+/*
+	Final Project
+	Author: Heather Garvison
+	Date: April 23, 2015
+	
+	File Name: project.css
+	Supporting Files: none
+*/
+
+body { background-color: #161;
+			font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+h1 { padding: 5px;
+		width: 300px;
+		margin: auto;
+}
+
+h2 { text-align: center;}
+
+hr { border: 2px solid #505050;}
+
+#wrapper { width: 65%;
+					 margin-left: auto;
+					 margin-right: auto;
+					 background-color: #5a5;
+					 padding: 10px;
+					 border-radius: 5px;
+					 box-shadow: 5px 5px 5px #000;
+					 border: 1px solid #000;
+					 min-width: 720px;
+}
+
+header { text-align: center;
+				font-family: Georgia, "Times New Roman", serif;
+}
+
+nav li, h1, .material, dl { background-color: #d0eb9a;
+												border: 1px solid #505050;
+												border-radius: 5px;
+}
+
+nav { text-align: center;
+			font-size: 1.5em;
+			font-weight: bold;
+}
+
+nav a { text-decoration: none;}
+
+nav ul { list-style-type: none;
+			 padding: 0;
+}
+
+nav li { display: inline;
+       padding: 5px 15px 5px 15px;
+}
+
+nav a:link { color: #000;}
+nav a:hover { color: #266;}
+nav a:visited { color: #161;}
+
+main { display: block;}
+
+footer { text-align: center;
+			 font-style: italic;
+			 font-size: .6em;
+			 padding-top: 10px;
+			 clear: right;
+}
+
+main img { border: 1px solid #000;
+				 margin-right: 10px;
+				 margin-left: 10px;
+				 float: right;
+         border-radius: 15px;
+}
+
+h3 { clear: right;
+     margin: 0;
+}
+
+.material, dl { padding: 5px;
+							 margin: 20px;
+							 min-height: 220px;
+}
+
+.center { margin-left: 10px;}
+
+table { background-image: linear-gradient(to bottom, #d0eb9a, #779C32);
+			border-radius: 5%;
+			margin: auto;
+			min-width: 720px;	
+			padding: 5px;
+			padding-bottom: 0;
+			border: 1px solid #505050;
+			border-spacing: 0;
+}
+
+td, th { padding: 5px;
+				padding-bottom: 5px;
+				font-family: Verdana, Arial, san-serif;
+				width: 16.66%;
+				border-bottom: 1px solid #505050;
+				border-right: 1px solid #505050;
+}
+
+td:last-of-type { border-right: none;}
+
+#norborder { border-right: none;}
+
+.nobborder { border-bottom: none;}
+
+th { vertical-align: middle;}
+
+.centeralign { text-align: center;}
+
+.topalign { vertical-align: top;}
+
+td a { color: #000;}
+
+td ul { padding-left: 20px;
+			list-style-position: outside;
+			list-style-type: circle;
+}
+
+td li, dd { padding-bottom: 10px;}
+
+caption { font-weight: bold;
+				font-size: 1.5em;
+				font-family: "Trebuchet MS", Helvetica, sans-serif;
+				padding-bottom: 5px;
+}
+
+.indeximg { border-radius: 25px;
+						border: 1px solid #266;
+						box-shadow: 5px 5px 5px #266;
+}
+
+dt { font-weight: bold;
+		padding: 5px;
+}
